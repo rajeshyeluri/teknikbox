@@ -1,7 +1,0 @@
-
-Account Modifications Report
-=================================================
-# date time auid addr term exe acct success event
-=================================================
-<no events of interest were found>
-

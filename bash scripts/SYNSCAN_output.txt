@@ -1,6 +1,0 @@
-SYNSCAN Command : nmap -sS 167.172.144.11 
-SYNSCAN Command : nmap -sS 12.205.151.1
-
-Starting Nmap 7.60 ( https://nmap.org ) at 2021-03-15 00:06 EDT
-Stats: 0:09:55 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
-SYN Stealth Scan Timing: About 35.97% done; ETC: 00:34 (0:17:39 remaining)
