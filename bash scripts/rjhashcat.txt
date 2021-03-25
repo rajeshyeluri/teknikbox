@@ -1,0 +1,16 @@
+hashcat -m 0 -a 0 -o solved.txt hashfile.txt /usr/share/wordlists/rockyou.txt --force 
+CONGRATULATIONS TO THE CYBER SLEUTH THAT FINDS THIS MESSAGE!!
+
+
+    My Confession
+
+     I, Detective Tannen, am confessing that I am the Alphabet Bandit! 
+
+     I am the one solely responsible for all of the Hill Valley Break-ins.
+
+     Since I wasn't promoted to Captain, I have been determined to cause havoc to the Hill Valley community and tie up the Hill Valley Resources.
+
+     Unfortunately, since you have found this message, I will assume that I will be prosecuted and the break-ins will cease.
+
+    Sincerely,
+     Detective Tannen

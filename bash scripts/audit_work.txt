@@ -1,0 +1,11 @@
+
+Account Modifications Report
+=================================================
+# date time auid addr term exe acct success event
+=================================================
+1. 01/25/2021 20:42:37 1000 UbuntuDesktop pts/1 /usr/sbin/groupadd ? yes 339
+2. 01/25/2021 20:42:37 1000 UbuntuDesktop pts/1 /usr/sbin/groupadd ? yes 340
+3. 01/25/2021 20:42:37 1000 UbuntuDesktop pts/1 /usr/sbin/groupadd ? yes 341
+4. 01/25/2021 20:42:37 1000 UbuntuDesktop pts/1 /usr/sbin/useradd ? yes 342
+5. 01/25/2021 20:42:48 1000 UbuntuDesktop pts/1 /usr/bin/passwd attacker yes 344
+-w /var/log/cron -p rwxa

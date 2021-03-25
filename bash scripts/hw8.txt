@@ -1,0 +1,12 @@
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+starwars.com	mail exchanger = 5 alt2.aspmx.l.google.com.
+starwars.com	mail exchanger = 10 aspmx2.googlemail.com.
+starwars.com	mail exchanger = 1 aspmx.l.google.com.
+starwars.com	mail exchanger = 5 alt1.aspx.l.google.com.
+starwars.com	mail exchanger = 10 aspmx3.googlemail.com.
+
+Authoritative answers can be found from:
+

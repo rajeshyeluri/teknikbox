@@ -1,0 +1,10 @@
+nslookup -type=all www.theforce.net
+unknown query type: all
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+www.theforce.net	canonical name = theforce.net.
+Name:	theforce.net
+Address: 104.156.250.80
+
