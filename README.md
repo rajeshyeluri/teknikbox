@@ -52,12 +52,11 @@ Process for ansible to use
 
 Configuration details: 
 
-Name	Type	IP Address	Operating System
-Jump-Box-Provisioner	Gateway	10.0.0.4	Linux (Ubuntu 18.04)
-Web-1	Web server	10.0.0.7	Linux (Ubuntu 18.04)
-Web-2	Web server	10.0.0.8	Linux (Ubuntu 18.04)
-Web-3	Web server	10.0.0.9	Linux (Ubuntu 18.04)
-ELK-Server	ELK stack	10.1.0.4	Linux (Ubuntu 18.04)
+Name	Type	        IP Address	            Operating System
+Jump-BoxGateway	        10.0.0.4	        Linux (Ubuntu 18.04)
+Web-1	Web server	    10.0.0.7	        Linux (Ubuntu 18.04)
+Web-2	Web server	    10.0.0.8	        Linux (Ubuntu 18.04)
+ELK-Server	ELK stack	10.1.0.4	        Linux (Ubuntu 18.04)
 
 Access Policy : 
 As per the requirement the VM`s or the webservers are not exposed to public . This can be achieved by leveraging on the Azure Network security groups. 
@@ -70,11 +69,12 @@ Access Policies view
 
 Name	                Public Access	Allow-IP Addresses
 Jump-Box-Provisioner	    Yes (SSH)	xxx.xxx.xxx.249
-Web-1	                    No	        10.0.0.4
-Web-2	                    No	        10.0.0.4
-Web-3	                    No	        10.0.0.4
+Web-1	                    No	        10.0.0.7
+Web-2	                    No	        10.0.0.8
 ELK-Server	                Yes (HTTP)	xxx.xxx.xxx.249
 
 
+![ELK](https://user-images.githubusercontent.com/22172700/112416954-c5439800-8d7a-11eb-85c4-89785f4f5d38.jpg)
+![Kibana](https://user-images.githubusercontent.com/22172700/112416962-cb397900-8d7a-11eb-8fb8-c6a8bf7be057.jpg)
 
 
