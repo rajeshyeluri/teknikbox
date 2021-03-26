@@ -51,15 +51,15 @@ Process for ansible to use
 4. DVWA : Web application used for the project
 
 Configuration details: 
-----------------------------------------------------------------------
-|Name	                |Type	    |IP Address	|Operating System    |
-----------------------------------------------------------------------
-|Jump-Box-Provisioner	|Gateway	|10.0.0.4	|Linux (Ubuntu 18.04)|
-|Web-1	                |Web server	|10.0.0.7	|Linux (Ubuntu 18.04)|
-|Web-2	                |Web server	|10.0.0.8	|Linux (Ubuntu 18.04)|
-|Web-3	                |Web server	|10.0.0.9	|Linux (Ubuntu 18.04)|
-|ELK-Server	            |ELK stack	|10.1.0.4	|Linux (Ubuntu 18.04)|
------------------------------------------------------------------------
+
+| Name          | Type          | IP         | OS.   |
+| ------------- |:-------------:| ----------:|-------
+| Jump-box      | right-aligned | 10.0.0.4   | Linux |
+| Web-1.        | Webserver     | 10.0.0.7   | Linux |
+| Web-2         | Webserver     | 10.0.0.7   | Linux |
+| Web-3         | Webserver     | 10.0.0.7   | Linux |
+| ELK-STACK.    | ELK Server    | 10.1.0.4   | Linux |
+
 Access Policy : 
 As per the requirement the VM`s or the webservers are not exposed to public . This can be achieved by leveraging on the Azure Network security groups. 
 
@@ -69,12 +69,13 @@ the idea is to let only jumpbox access the webservers via SSH and only jumpbox i
 
 Access Policies view 
 
-Name	                Public Access	Allow-IP Addresses
-Jump-Box-Provisioner	    Yes (SSH)	xxx.xxx.xxx.249
-Web-1	                    No	        10.0.0.4
-Web-2	                    No	        10.0.0.4
-Web-3	                    No	        10.0.0.4
-ELK-Server	                Yes (HTTP)	xxx.xxx.xxx.249
+| Name          | Public Access | Allow-IP   | 
+| ------------- |:-------------:| ----------:|
+| Jump-box      | Yes           | Homeip     |
+| Web-1.        | No            | 10.0.0.4   |
+| Web-2         | No            | 10.0.0.4   |
+| Web-3         | No            | 10.0.0.4   |
+| ELK-STACK.    | Yes HTTP/SSH  | Home-ip    |
 
 
 Playbook steps
